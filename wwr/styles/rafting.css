@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Playfair+Display?preview.layout=grid&query=display')
+@import url(https://fonts.google.com/specimen/Playfair+Display?preview.layout=grid&query=pla);
 
 body {
     font-family: var(--paragraph-font);
@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #808EB5;
+    --primary-color: #5475ce;
     --secondary-color: #BEC5AD;
     --accent1-color: #f1f2eb;
     --accent2-color: #e2b4bd;
@@ -21,40 +21,41 @@ body {
     --nav-hover-background-color: #bec5ad;
 }
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color, 0rgb(0, 195, 255));
-}
-
 header {
     padding-left: 20px;
     background-color: var(--accent1-color);
 }
 
 p {
-    padding: 25px;
+    padding: 0;
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rex;
-    display: flex;
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-nav a {
+h1, h2, h3, h4, h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color, 0rgb(0, 195, 255));
+}
+
+.hiro img {
     display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding-left: 1rem;
+    width: 100%;
+    height: auto;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.hiro {
+    position: relative;
 }
+
+.hiro p {
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+}
+
