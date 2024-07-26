@@ -134,7 +134,7 @@ button {
     background-color: rgb(53, 133, 164);
     color: rgb(241, 246, 248);
     border: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: .50rem;
     font-size: 1.2rem;
 }
