@@ -1,28 +1,36 @@
+:root {
+    --heading-background-color: rgba(163, 87, 130, 0.723);
+    --heading-text-color: #333333df;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 0.3rem;
+    --border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 nav {
- background-color: darkblue;
- padding: 10px;
+ background-color: var(--heading-background-color);
+ padding: var(--padding);
 }
 
 nav a {
- color: white;
+ color: var(--heading-text-color);
  display: block;
- padding: 20px;
+ padding: var(--padding);
 }
 
 h1 {
- color: darkblue;
+ color: var(--heading-text-color);
 }
 
 main img {
  width: 150px;
  height: auto;
- border: 1px solid black;
- padding: 2px;
+ border: var(--border);
+ padding: var(--padding);
  box-shadow: 0 0 30px gray;
 }
 
 p {
- padding: 0;
+ padding: var(--padding);
 }
 
 main {
@@ -32,10 +40,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px snow rgba(0, 0, 0, 0.2);
-    padding: 0rem;
-    background-color: white;
-    color: black;
+    border: var(--border);
+    padding: var(--padding);
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
     text-align: center;
 }
 
