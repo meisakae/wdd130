@@ -1,0 +1,102 @@
+
+:root {
+    --heading-background-color: #f3f6f1;
+    --heading-text-color: #357a4c;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 0.3rem;
+    --border: 1px solid #b7d5d4;
+}
+
+nav a {
+    color: var(--heading-text-color);
+    padding: 1.5px
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+   
+.hiro img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: rgba(246, 250, 249, 0.967);
+    background-color:rgba(44, 175, 142, 0.4);
+    font-family: var(--heading-font);
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+    font-size: 4rem;
+}
+
+article {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    width: 45%;
+    background-color: rgba(80, 151, 133, 0.429);
+    padding: 10px;
+}
+
+article img {
+    float: right;
+    margin-left: 0px;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+article p {
+    color: #f3f6f1;
+}
+
+section img {
+    width: 550px;
+    height: auto;
+    margin: 0 0 1rem 1rem;
+    display: flex;
+}
+
+section p {
+    margin: 8px;
+    font-size: 15px;
+}
+    
+h2 {
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    font-size: 1.7rem;
+}
+
+p {
+    margin: 20px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer img{
+    width: 45px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: left;
+}
+
+footer {
+    margin: 1.5px;
+    text-align: left;
+    padding: 1.5px;
+}

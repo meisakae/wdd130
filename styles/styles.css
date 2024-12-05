@@ -8,12 +8,13 @@
     --heading-text-color: #333333df;
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 0.3rem;
+    --border: 1px solid #b7d5d4;
 }
 
 nav {
- background-color: var(--heading-background-color);
- padding: var(--padding);
-}
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+   }   
 
 nav a {
  color: var(--heading-text-color);
@@ -62,7 +63,6 @@ aside h2 {
 
 footer {
     margin: 15px;
-    border-top: 1px solid black;
     text-align: center;
 }
 
