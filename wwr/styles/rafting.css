@@ -7,81 +7,128 @@
     --border: 1px solid #b7d5d4;
 }
 
-nav a {
-    color: var(--heading-text-color);
-    padding: 1.5px
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body {
-    margin-left: 20px;
-    margin-right: 20px;
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 1.5rem;
 }
-   
-.hiro img {
-    display: block;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
+
+header img {
+    position: relative;
+    left: -25%;
+    width: 200px;
 }
 
 h1 {
-    color: rgba(246, 250, 249, 0.967);
-    background-color:rgba(44, 175, 142, 0.4);
+    color: var(--heading-text-color);
     font-family: var(--heading-font);
-    position: absolute;
-    bottom: 180px;
-    left: 50px;
-    font-size: 4rem;
+    position: relative;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 40px;
+    padding: 5px;
 }
 
 article {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    width: 45%;
+    position: relative;
+    left:  100px;
+    width: 80%;
     background-color: rgba(80, 151, 133, 0.429);
     padding: 10px;
+    border: 2px solid#333;
+    padding: 20px;
 }
 
 article img {
     float: right;
-    margin-left: 0px;
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-}
-
-article p {
-    color: #f3f6f1;
-}
-
-section img {
-    width: 550px;
-    height: auto;
-    margin: 0 0 1rem 1rem;
-    display: flex;
-}
-
-section p {
-    margin: 8px;
-    font-size: 15px;
-}
-    
-h2 {
-    color: var(--heading-text-color);
-    font-family: var(--heading-font);
-    font-size: 1.7rem;
+    width: 170px;
+    padding: 0 0 10px;
 }
 
 p {
     margin: 20px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
 }
 
+article p {
+    color: #474a47;
+}
+
+.History img {
+    display: flex;
+    justify-content: center;
+    grid-column: 2 / 3;
+    width: 450px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+
+section {
+    width: 100%;
+    gap: 15px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.History p {
+    grid-column: 1 / 2;
+    
+}
+
+
+section figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 75%;
+}
+section img {
+    position: relative;
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin: 80px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.adventure-picture {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+section figcaption {
+    text-align: center;
+    left: 50%;
+    transform: translate(20%);
+    font-size: 17px;
+    margin-bottom: 20%;
+}
+    
+h2 {
+    position: absolute;
+    right: 45%;
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    
+}
+
+
 a {
+
     text-decoration: none;
 }
 
@@ -93,9 +140,13 @@ footer img{
 footer nav {
     display: flex;
     justify-content: left;
+    gap: 10px;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
     margin: 1.5px;
     text-align: left;
     padding: 1.5px;
